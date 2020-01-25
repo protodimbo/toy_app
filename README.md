@@ -1,6 +1,6 @@
 # README
 
-Мини твиттер с импользованием скафолдинга
+Мини твиттер с импользованием скафолдинга (rails generate scaffold User name:string email:string и rails generate scaffold Micropost content:text user_id:integer)
 
 Недостатки скафолдинга 
 Отсутствует проверка данных. Модель User безропотно принимает такие данные, как пустые имена и недопустимые адреса электронной почты.
