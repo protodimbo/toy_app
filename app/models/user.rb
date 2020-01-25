@@ -1,3 +1,4 @@
 class User < ApplicationRecord
     has_many :microposts #может иметь много сообщений
-end
+    validates :name, :email, presence: true
+end 
