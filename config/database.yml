@@ -6,7 +6,7 @@ development:
   database: toy_app_development
   pool: 5
   username: toy_app
-  password: password1
+  password: 
   host: localhost
   port: 5432
 
@@ -28,6 +28,6 @@ test:
   database: toy_app_test
   pool: 5
   username: toy_app
-  password: password1
+  password: 
   host: localhost
   port: 5432
